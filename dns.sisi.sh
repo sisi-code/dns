@@ -4,9 +4,9 @@ clear
 
 
 echo -e "\e[1;35m*****************************************"
-echo -e "\e[1;35m*\e[0m \e[1;31mY\e[1;32mO\e[1;33mU\e[1;34mT\e[1;35mU\e[1;36mB\e[1;37mE\e[0m : \e[4;34msisi\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mT\e[1;32mE\e[1;33mL\e[1;34mE\e[1;35mG\e[1;36mR\e[1;37mA\e[1;31mM\e[0m : \e[4;34msisi\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/sisi_shno\e[0m \e[1;35m"
+echo -e "\e[1;35m*\e[0m \e[1;31mY\e[1;32mO\e[1;33mU\e[1;34mT\e[1;35mU\e[1;36mB\e[1;37mE\e[0m : \e[4;34mKOLANDONE\e[0m         \e[1;35m"
+echo -e "\e[1;35m*\e[0m \e[1;31mT\e[1;32mE\e[1;33mL\e[1;34mE\e[1;35mG\e[1;36mR\e[1;37mA\e[1;31mM\e[0m : \e[4;34mKOLANDJS\e[0m         \e[1;35m"
+echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/Kolandone\e[0m \e[1;35m"
 echo -e "\e[1;35m*****************************************"
 echo ""
 
@@ -20,11 +20,12 @@ echo -e "\e[1;36m5. \e[1;33mWarp License Cloner\e[0m"
 echo -e "\e[1;36m6. \e[1;33mHiddify config for 2.0 version or higher\e[0m"
 echo -e "\e[1;36m7. \e[1;33mInstall Worker Creator\e[0m"
 echo -e "\e[1;36m8. \e[1;33mRun Worker Creator (install it first)\e[0m"
-echo -e "\e[1;36m9. \e[1;33m Free subscription link (Hin VPN)\e[0m"
+echo -e "\e[1;36m9. \e[1;33m Free subscription link(Soroush Mirzaei)\e[0m"
 echo -e "\e[1;36m10. \e[1;33mwireguard config for Hiddify and v2ray\e[0m"
 echo -e "\e[1;36m11. \e[1;33mCLEAN IP scanner\e[0m"
 echo -e "\e[1;36m12. \e[1;33mfastly CLEAN IP scanner\e[0m"
 echo -e "\e[1;36m13. \e[1;33mgcore CLEAN IP scanner\e[0m"
+echo -e "\e[1;36m14. \e[1;33mTelegram Proxy\e[0m"
 echo -e "\e[1;36m*****************************************"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
@@ -292,9 +293,11 @@ elif [ "$user_input" -eq 12 ]; then
     bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/fastlyipscan/refs/heads/main/ipscan.sh)
 elif [ "$user_input" -eq 13 ]; then
     bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/gcorescanner/refs/heads/main/gcore.sh)
+elif [ "$user_input" -eq 14 ]; then
+    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/refs/heads/main/proxy.sh)
 elif [ "$user_input" -eq 99 ]; then
     bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/Selector/main/install.sh)
     echo -e "\e[1;32mAfter this, you can run the Selector with \e[1;36mkl \e[1;32mcommand\e[0m"
     else 
-    echo "Invalid input. Please enter between 1 and 13"
+    echo "Invalid input. Please enter between 1 and 14"
 fi
