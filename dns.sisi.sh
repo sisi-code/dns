@@ -27,7 +27,6 @@ echo -e "\e[1;36m****************ehsan*************************"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
 
-
 measure_latency() {
     local ip_port=$1
     local ip=$(echo $ip_port | cut -d: -f1)
