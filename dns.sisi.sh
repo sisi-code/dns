@@ -4,27 +4,26 @@ clear
 
 
 echo -e "\e[1;35m*****************************************"
-echo -e "\[1;33m***********************************************EHSAN-KURD*********************************************************************************************************************************************************************************************************EHSAN-KURD********************************
 echo -e "\e[1;35m*****************************************"
 echo ""
 
-echo -e "\e[1;34m***********EHSAN******************************"
-echo -e "\e[1;36mPlease choose an option:(Type 99 to install selector)\e[0m"
-echo -e "\e[1;36m1. \e[1;33mehsan**>iIPv4 scan\e[0m"
-echo -e "\e[1;36m2. \e[1;33mehsan**>IPv6 scan\e[0m"
-echo -e "\e[1;36m3. \e[1;33mehsan**>V2ray and MahsaNG wireguard config\e[0m"
-echo -e "\e[1;36m4. \e[1;33mehsan**>Hiddify config for 1.4.0 - 1.9.0 versions\e[0m"
-echo -e "\e[1;36m5. \e[1;33mehsan**>Warp License Cloner\e[0m"
-echo -e "\e[1;36m6. \e[1;33mehsan**>Hiddify config for 2.0 version or higher\e[0m"
-echo -e "\e[1;36m7. \e[1;33mehsan**>Install Worker Creator\e[0m"
-echo -e "\e[1;36m8. \e[1;33mehsan**>Run Worker Creator (install it first)\e[0m"
-echo -e "\e[1;36m9. \e[1;33mehsan**> Free subscription link(Soroush Mirzaei)\e[0m"
-echo -e "\e[1;36m10. \e[1;33mehsan**>wireguard config for Hiddify and v2ray\e[0m"
-echo -e "\e[1;36m11. \e[1;33mehsan**>CLEAN IP scanner\e[0m"
-echo -e "\e[1;36m12. \e[1;33ehsan**>mfastly CLEAN IP scanner\e[0m"
-echo -e "\e[1;36m13. \e[1;33mehsan**>gcore CLEAN IP scanner\e[0m"
-echo -e "\e[1;36m14. \e[1;33mehsan**>Telegram Proxy\e[0m"
-echo -e "\e[1;36m*************EHSAN****************************"
+echo -e "\e[1;36m*****************************************"
+echo -e "\e[1;32mPlease choose an option:(Type 99 to install selector)\e[0m"
+echo -e "\e[1;36m1. \e[1;33mIPv4 scan\e[0m"
+echo -e "\e[1;36m2. \e[1;33mIPv6 scan\e[0m"
+echo -e "\e[1;36m3. \e[1;33mV2ray and MahsaNG wireguard config\e[0m"
+echo -e "\e[1;36m4. \e[1;33mHiddify config for 1.4.0 - 1.9.0 versions\e[0m"
+echo -e "\e[1;36m5. \e[1;33mWarp License Cloner\e[0m"
+echo -e "\e[1;36m6. \e[1;33mHiddify config for 2.0 version or higher\e[0m"
+echo -e "\e[1;36m7. \e[1;33mInstall Worker Creator\e[0m"
+echo -e "\e[1;36m8. \e[1;33mRun Worker Creator (install it first)\e[0m"
+echo -e "\e[1;36m9. \e[1;33m Free subscription link(Soroush Mirzaei)\e[0m"
+echo -e "\e[1;36m10. \e[1;33mwireguard config for Hiddify and v2ray\e[0m"
+echo -e "\e[1;36m11. \e[1;33mCLEAN IP scanner\e[0m"
+echo -e "\e[1;36m12. \e[1;33mfastly CLEAN IP scanner\e[0m"
+echo -e "\e[1;36m13. \e[1;33mgcore CLEAN IP scanner\e[0m"
+echo -e "\e[1;36m14. \e[1;33mTelegram Proxy\e[0m"
+echo -e "\e[1;36m*****************************************"
 echo -en "\e[1;32mEnter your choice:\e[0m"
 read -r user_input
 
@@ -54,7 +53,7 @@ display_table_ipv4() {
     printf "+-----------------------+------------+\n"
     printf "| IP:Port               | Latency(ms) |\n"
     printf "+-----------------------+------------+\n"
-    echo "$2" | head -n 15 | while read -r ip_port; do measure_latency "$ip_port"; done
+    echo "$1" | head -n 10 | while read -r ip_port; do measure_latency "$ip_port"; done
     printf "+-----------------------+------------+\n"
 }
 
