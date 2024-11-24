@@ -9,7 +9,7 @@ echo -e "\e[1;35m*****************************************"
 echo ""
 
 echo -e "\e[1;34m***********EHSAN******************************"
-echo -e "\e[1;33mPlease choose an option:(Type 99 to install selector)\e[0m"
+echo -e "\e[1;36mPlease choose an option:(Type 99 to install selector)\e[0m"
 echo -e "\e[1;36m1. \e[1;33mehsan**>iIPv4 scan\e[0m"
 echo -e "\e[1;36m2. \e[1;33mehsan**>IPv6 scan\e[0m"
 echo -e "\e[1;36m3. \e[1;33mehsan**>V2ray and MahsaNG wireguard config\e[0m"
