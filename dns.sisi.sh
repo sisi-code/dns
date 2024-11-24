@@ -53,7 +53,7 @@ display_table_ipv4() {
     printf "+-----------------------+------------+\n"
     printf "| IP:Port               | Latency(ms) |\n"
     printf "+-----------------------+------------+\n"
-    echo "$1" | head -n 15 | while read -r ip_port; do measure_latency "$ip_port"; done
+    echo "$1" | head -n 10 | while read -r ip_port; do measure_latency "$ip_port"; done
     printf "+-----------------------+------------+\n"
 }
 
